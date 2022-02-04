@@ -1,11 +1,14 @@
 import { Button, Link, TextField } from '@mui/material';
 import React from 'react';
+import Banner from '../Banner/Banner';
+import { Footer } from '../Footer/Footer';
 import Menu from '../Menu/Menu';
 
 const Register = () => {
   return (
       <div>
           <Menu></Menu>
+          <Banner></Banner>
           <h1>This is Register</h1>
           <form action="">
           <TextField 
@@ -44,6 +47,7 @@ const Register = () => {
           <Button style={{width:"20%"}} variant="contained">Login</Button>
           </form>
           <Link to="/login">Login</Link>
+          <Footer></Footer>
       </div>
   );
 };
