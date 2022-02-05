@@ -8,7 +8,6 @@ const Home = () => {
   return (
       <div>
           <Menu></Menu>
-          <Banner></Banner>
           <h1>This is Home</h1>
           <Button variant="contained">submit</Button>
           <Footer></Footer>

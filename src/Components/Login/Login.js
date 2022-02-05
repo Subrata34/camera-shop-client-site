@@ -1,6 +1,5 @@
 import { Button, Link, TextField } from '@mui/material';
 import React from 'react';
-import Banner from '../Banner/Banner';
 import { Footer } from '../Footer/Footer';
 import Menu from '../Menu/Menu';
 
@@ -8,7 +7,6 @@ const Login = () => {
   return (
       <div>
           <Menu></Menu>
-          <Banner></Banner>
           <h1>This is Login</h1>
           <form action="">
           <TextField 

@@ -7,7 +7,6 @@ const Products = () => {
   return (
       <div>
           <Menu></Menu>
-          <Banner></Banner>
           <h1>This is Products</h1>
           <Footer></Footer>
       </div>
